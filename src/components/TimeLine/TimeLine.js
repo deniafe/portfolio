@@ -44,9 +44,13 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+       <SectionDivider colorAlt />
+       <div style={{marginTop: '30px'}} >
+        <SectionTitle>About Me</SectionTitle>
+       </div>
+     
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        My name is Deborah Bamidele, from Lagos, Nigeria. Back in 2011, I wanted to be able to make money online. This got me into web devlopment. Since then, I have learnt lots of technologies and built different types of apps. I enjoy the challenge that comes with coding and love learning new technologies.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
