@@ -12,19 +12,17 @@ export const projects = [
     title: 'Whatellz',
     description:"Whatellz is a whatsapp automation tool built to scale whatsapp marketing for small businesses. Building this app was super challenging and expanded my horizon of knowledge as a developer",
     image: '/images/whatellz.png',
-    tags: ['Vue', 'Electron.js', 'Pupeteer', 'Vuetify'],
+    tags: ['Vue', 'Electron.js', 'Pupeteer', 'Node.js'],
     demo: 'https://www.youtube.com/watch?v=1U-4emwVIZU&feature=youtu.be',
     // visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'Coinverse',
-    description: "Coinverse is one stop spot for in depth data on all crypto currencies, crypto markets, crypto exchanges and crypto news. This was a fun project I built while learning react.",
-      image: '/images/coinverse.png',
-      tags: ['React', 'Rapid api', 'Ant Design'],
-    // source: 'https://google.com',
-    visit: 'https://coinverse-lovat.vercel.app/',
-    id: 2,
+    title: 'We Eat',
+    description:"This is a beautiful food delivery app that is similar to ubereat in functionality. It has some really tricky and complex UI, so I definitely learnt a lot of advanced react native techniques while building this app. It was fun and challenging at the same time. ",
+    image: '/images/weeat.png',
+    tags: ['React Native', 'Typescript', 'Google Maps', 'Node.js'],
+    id: 8,
   },
   {
     title: 'Invoicy',
@@ -45,6 +43,15 @@ export const projects = [
   //   id: 4,
   // },
   {
+    title: 'Mumble',
+    description: "Mumble is an interactive video conference app. It uses WebRTC and websockets for signaling. I built this app after taking a course on WebRTC. It was a fun project that helped to cement my knowledge of WebRTC.",
+      image: '/images/mumble.png',
+      tags: ['Typescript', 'React', 'Web RTC', 'Node.js'],
+    // demo: 'https://www.youtube.com/watch?v=7gBrbEwcM58&t=53s',
+    // visit: 'https://csb-cfmxj.vercel.app',
+    id: 5,
+  },
+  {
     title: 'Tubely',
     description: "Tubely was born out of an idea to increase youtube views using watch time metrics. I was proud to complete this project. It was my first successful desktop software with over 1000 downloads and counting.",
       image: '/images/tubely.png',
@@ -52,6 +59,15 @@ export const projects = [
     demo: 'https://www.youtube.com/watch?v=7gBrbEwcM58&t=53s',
     visit: 'https://csb-cfmxj.vercel.app',
     id: 5,
+  },
+  {
+    title: 'Coinverse',
+    description: "Coinverse is one stop spot for in depth data on all crypto currencies, crypto markets, crypto exchanges and crypto news. This was a fun project I built while learning react.",
+      image: '/images/coinverse.png',
+      tags: ['React', 'Rapid api', 'Ant Design'],
+    // source: 'https://google.com',
+    visit: 'https://coinverse-lovat.vercel.app/',
+    id: 2,
   },
   {
     title: 'Bidhaar',
@@ -76,6 +92,7 @@ export const projects = [
     tags: ['Flutter', 'Firebase', 'Google Maps'],
     id: 8,
   },
+  
 ];
 
 export const TimeLineData = [
